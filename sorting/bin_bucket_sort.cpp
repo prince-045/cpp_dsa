@@ -53,7 +53,7 @@ void bin_bucket(int a[], int n) {
 int main() {
     int a[] = {6, 3, 9, 10, 15, 6, 8, 12, 3, 6};
     int n = sizeof(a) / sizeof(a[0]);
-    bin_bucket(a, n); // Call the correct function
+    bin_bucket(a, n); 
 
     return 0;
 }
